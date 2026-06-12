@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Fathers Foot-Steps | Custom Wire Jewelry</title>
+  <meta name="description" content="Custom handmade wire jewelry, sterling silver designs, peridot-inspired pieces, bracelets, pendants, and one-of-a-kind gifts." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="mini-brand" href="index.html" aria-label="My Fathers Foot-Steps home">
+      <span class="mini-gem"></span>
+      <span>My Fathers Foot-Steps</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="#pricing">Prices</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-facebook" href="https://www.facebook.com/REPLACE_WITH_FACEBOOK_PAGE" target="_blank" rel="noopener">Facebook</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">Custom Wire Jewelry • Sterling Silver • Peridot Glow</p>
+        <h1>Handmade wire jewelry with color, meaning, and shine.</h1>
+        <p class="lead">
+          Purple depth, black elegance, peridot green, shiny gold lettering, and sterling silver detail.
+          A simple landing page for custom pieces, Facebook orders, and quick contact.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="btn gold" href="products.html">View Products & Prices</a>
+          <a class="btn silver" href="https://www.facebook.com/REPLACE_WITH_FACEBOOK_PAGE" target="_blank" rel="noopener">Visit Facebook</a>
+          <button class="btn ghost" type="button" data-open-contact>Contact Us</button>
+        </div>
+      </div>
+
+      <aside class="business-card-banner" aria-label="Business card logo placeholder">
+        <div class="silver-wire wire-one"></div>
+        <div class="silver-wire wire-two"></div>
+        <p class="card-topline">Custom Jewelry</p>
+        <div class="card-logo">
+          <span>My Fathers</span>
+          <span class="peridot-stone" aria-hidden="true"></span>
+          <span>Foot-Steps</span>
+        </div>
+        <p class="card-subline">Wire Wrap • Sterling Silver • Gold Filled • Handmade</p>
+        <p class="card-note">Business card / logo image placeholder</p>
+      </aside>
+    </section>
+
+    <section class="price-strip" id="pricing" aria-label="Starting prices">
+      <div class="price-card featured">
+        <span>Starting at</span>
+        <strong>$25</strong>
+        <p>Bracelets</p>
+      </div>
+      <div class="price-card">
+        <span>Starting at</span>
+        <strong>$35</strong>
+        <p>Wire Pendants</p>
+      </div>
+      <div class="price-card">
+        <span>Starting at</span>
+        <strong>$45</strong>
+        <p>Earrings & Sets</p>
+      </div>
+      <div class="price-card">
+        <span>Custom from</span>
+        <strong>$50+</strong>
+        <p>One-of-One Pieces</p>
+      </div>
+    </section>
+
+    <section class="section-pad intro-grid">
+      <article class="glass-panel">
+        <p class="eyebrow">Simple ordering</p>
+        <h2>See the work on Facebook, then message or request a piece.</h2>
+        <p>
+          This site keeps things clean: prices are visible up front, product placeholders can link to Square checkout,
+          and the main call-to-action sends customers to the Facebook page.
+        </p>
+      </article>
+
+      <article class="glass-panel silver-panel">
+        <p class="eyebrow">Design style</p>
+        <h2>Purple to black background, gold type, sterling accents.</h2>
+        <p>
+          The look is dark, elegant, and jewelry-focused without getting cluttered. The silver wire lines and peridot gem
+          give it that handmade wire-wrap identity.
+        </p>
+      </article>
+    </section>
+
+    <section class="section-pad callout">
+      <p class="eyebrow">Facebook first</p>
+      <h2>Follow new pieces, claim available jewelry, or request something custom.</h2>
+      <div class="hero-buttons centered">
+        <a class="btn gold" href="https://www.facebook.com/REPLACE_WITH_FACEBOOK_PAGE" target="_blank" rel="noopener">Go to Facebook</a>
+        <a class="btn silver" href="products.html">Shop Product Placeholders</a>
+      </div>
+    </section>
+
+    <section class="section-pad contact-section" id="contact">
+      <div class="contact-copy">
+        <p class="eyebrow">Contact</p>
+        <h2>Ask about a custom piece.</h2>
+        <p>
+          Swap the form action later for Square, Formspree, Netlify Forms, your own mail server endpoint, or a CRM form.
+        </p>
+      </div>
+
+      <form class="contact-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+        <label>
+          What are you looking for?
+          <select name="piece_type">
+            <option>Custom bracelet</option>
+            <option>Wire wrapped pendant</option>
+            <option>Earrings</option>
+            <option>Matching set</option>
+            <option>Memorial / keepsake piece</option>
+            <option>Not sure yet</option>
+          </select>
+        </label>
+        <label>
+          Message
+          <textarea name="message" placeholder="Tell us the stone, colors, size, budget, and deadline."></textarea>
+        </label>
+        <button class="btn gold full" type="submit">Send Request</button>
+      </form>
+    </section>
+  </main>
+
+  <dialog class="contact-modal" data-contact-modal>
+    <button class="modal-close" type="button" data-close-contact aria-label="Close contact form">×</button>
+    <h2>Contact My Fathers Foot-Steps</h2>
+    <p>Tell us what kind of piece you want and we’ll reply with details.</p>
+    <form class="contact-form modal-form" action="mailto:youremail@example.com" method="post" enctype="text/plain">
+      <label>
+        Name
+        <input type="text" name="name" placeholder="Your name" required />
+      </label>
+      <label>
+        Email
+        <input type="email" name="email" placeholder="you@example.com" required />
+      </label>
+      <label>
+        Message
+        <textarea name="message" placeholder="Custom pendant, bracelet, colors, stones, budget, etc."></textarea>
+      </label>
+      <button class="btn gold full" type="submit">Send Request</button>
+    </form>
+  </dialog>
+
+  <footer class="site-footer">
+    <p><strong>My Fathers Foot-Steps</strong> — Custom Wire Jewelry</p>
+    <p>Purple • Peridot • Black • Gold • Sterling Silver</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
