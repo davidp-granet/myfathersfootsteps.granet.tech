@@ -346,7 +346,7 @@ h3 {
 }
 
 .site-footer {
-  padding: 0 1rem 2.3rem;
+  padding: 0 1rem;
   text-align: center;
   color: var(--muted);
 }
@@ -697,5 +697,46 @@ body.modal-open {
 
   .contact-modal-actions {
     display: grid;
+  }
+}
+
+/******************************************************************************/
+
+.main-area {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-items: center;
+  background-color: #F7F2E7;
+}
+
+.main-img {
+  max-width: 100%;
+  max-height: calc(100vh - 200px);
+  padding: 0 20px;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  margin: 20px;
+  margin-bottom: 100px;
+  gap: 10px;
+  max-width: 320px;
+}
+
+@media (max-width: 900px) {
+  .main-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .main-img {
+    max-height: 500px;
+  }
+
+  .main-menu {
+    margin: 20px;
   }
 }
