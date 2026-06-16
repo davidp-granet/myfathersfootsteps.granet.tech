@@ -83,11 +83,13 @@ p {
 }
 
 .mini-gem {
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  background: radial-gradient(circle at 35% 35%, #fff9d1, var(--peridot) 42%, #4d8d27 100%);
   box-shadow: 0 0 18px rgba(158, 217, 109, 0.75);
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  transform: rotate(45deg);
+  background: linear-gradient(135deg, #d7ff75, #7fb51f);
+  /* border: 1px solid rgba(255, 255, 255, .7); */
 }
 
 .site-nav {
