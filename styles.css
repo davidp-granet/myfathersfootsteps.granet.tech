@@ -112,11 +112,6 @@ p {
   transform: translateY(-1px);
 }
 
-.nav-facebook {
-  color: var(--gold-soft) !important;
-  border: 1px solid rgba(244, 213, 118, 0.32);
-}
-
 .section-pad {
   padding: clamp(3rem, 7vw, 7rem) clamp(1rem, 5vw, 5rem);
 }
@@ -369,13 +364,11 @@ h3 {
 }
 
 @media (max-width: 900px) {
-  .site-header,
   .contact-panel {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .site-nav,
   .contact-actions {
     justify-content: flex-start;
   }
@@ -491,17 +484,17 @@ h3 {
   }
 }
 
-/* JVK-style contact modal copied onto this site */
+/* Contact modal copied onto this site */
 .nav-contact-button {
   appearance: none;
-  border: 0;
   background: transparent;
-  color: var(--muted);
   font: inherit;
   cursor: pointer;
   padding: 0.55rem 0.8rem;
   border-radius: 999px;
   transition: background 160ms ease, color 160ms ease, transform 160ms ease;
+  color: var(--gold-soft);
+  border: 1px solid rgba(244, 213, 118, 0.32);
 }
 
 .nav-contact-button:hover,
