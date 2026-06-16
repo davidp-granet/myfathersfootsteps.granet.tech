@@ -274,10 +274,6 @@ p {
   width: 100%;
 }
 
-.blank-link {
-  cursor: default;
-}
-
 .info-strip,
 .contact-panel {
   position: relative;

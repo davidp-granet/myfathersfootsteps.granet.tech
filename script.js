@@ -2,7 +2,6 @@ const contactModal = document.querySelector('[data-contact-modal]');
 const contactDialog = contactModal?.querySelector('.contact-modal-dialog');
 const openContactButtons = document.querySelectorAll('[data-contact-open], [data-open-contact]');
 const closeContactButtons = document.querySelectorAll('[data-contact-close], [data-close-contact]');
-const blankLinks = document.querySelectorAll('[data-blank-link]');
 
 let lastContactTrigger = null;
 
@@ -41,10 +40,4 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'Escape' && contactModal?.classList.contains('is-open')) {
     closeContactModal();
   }
-});
-
-blankLinks.forEach((link) => {
-  link.addEventListener('click', (event) => {
-    event.preventDefault();
-  });
 });
