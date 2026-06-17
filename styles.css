@@ -612,12 +612,12 @@ h3 {
   outline: none;
 }
 
-.uhaul-pill {
+.pink-pill {
   background: linear-gradient(135deg, #7b3fb3, #ffd166);
   color: #1f1300;
 }
 
-.uhaul-pill span {
+.pink-pill span {
   color: rgba(31,19,0,.75);
 }
 
