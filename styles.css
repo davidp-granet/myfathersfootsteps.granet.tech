@@ -668,6 +668,10 @@ body.modal-open {
   overflow: hidden;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 @media (max-width: 700px) {
   .contact-modal {
     padding: 12px;
